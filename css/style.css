@@ -141,17 +141,18 @@ section { position: relative; }
   color: var(--ink);
 }
 .brand .mark {
-  width: 38px;
-  height: 38px;
-  border-radius: 10px;
-  background: linear-gradient(135deg, var(--crimson-light), var(--crimson-dark));
+  width: 42px;
+  height: 42px;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fff;
-  font-size: 1.1rem;
-  font-weight: 800;
   flex-shrink: 0;
+}
+.brand .mark img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
 }
 .brand span.co { color: var(--crimson); }
 
@@ -681,7 +682,7 @@ a, .service-card, .value-card, .btn, .float-card, .faq-q .plus, .nav-links a::af
   .nav-cta > .btn-primary { display: none; }
   .nav-toggle { display: flex; }
   .brand { font-size: 0.98rem; }
-  .brand .mark { width: 32px; height: 32px; font-size: 0.95rem; }
+  .brand .mark { width: 34px; height: 34px; }
   .nav { padding: 14px 20px; }
   .wrap { padding: 0 20px; }
   .nav-links.open {
