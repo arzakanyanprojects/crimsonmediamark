@@ -344,13 +344,15 @@ section { position: relative; }
   border-color: transparent;
 }
 .service-icon {
-  width: 52px; height: 52px;
-  border-radius: 12px;
-  background: var(--crimson-tint);
-  color: var(--crimson);
+  width: 56px; height: 56px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, var(--crimson-light), var(--crimson-dark));
+  color: #fff;
   display: flex; align-items: center; justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 22px;
+  box-shadow: 0 10px 22px rgba(166, 25, 46, 0.28);
 }
+.service-icon svg { stroke-width: 1.75; }
 .service-card h3 { font-size: 1.2rem; margin-bottom: 10px; }
 .service-card p { color: var(--ink-soft); font-size: 0.95rem; margin-bottom: 16px; }
 .service-card .more { font-size: 0.88rem; font-weight: 600; color: var(--crimson); display: inline-flex; align-items: center; gap: 6px; }
